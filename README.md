@@ -10,14 +10,16 @@ At the first phase of project we should do:
 
 ### Guide
 You can use this flags to set the configuration of the sniffing( * are necessary):
-- * `-h`: determining host ip
-- * `-t`: determining maximum number of threads
-- * `-d`: setting the waiting time for each port sniff
-- * `[start:end]`: to config ports range
+- `-h`: determining host ip (*)
+- `-t`: determining maximum number of threads (*)
+- `-d`: setting the waiting time for each port sniff (*)
+- `[start:end]`: to config ports range (*)
+
 Choose one of these( `all` is default):
 - `-all`: Sniff a particular port range
 - `-wlp`: Sniff wellknown ports
 - `-serv`: Sniff Services ports
+
 #### Example
 
 ```
